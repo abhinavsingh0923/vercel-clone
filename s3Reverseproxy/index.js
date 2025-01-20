@@ -4,7 +4,7 @@ const httpProxy = require("http-proxy");
 const app = express();
 const port = process.env.PORT || 8000;
 
-const baseURI = "https://swarnnika-vercel2.s3.amazonaws.com/__output";
+const baseURI = "https://abhinav-vercel2.s3.amazonaws.com/__output";
 const proxy = httpProxy.createProxy();
 
 // Proxy middleware

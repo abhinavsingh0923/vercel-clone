@@ -9,7 +9,7 @@ import (
 )
 func main(){
     
-     const BUCKET_URL="https://swarnnika-vercel2.s3.amazonaws.com/__output"
+     const BUCKET_URL="https://abhinav-vercel2.s3.amazonaws.com/__output"
 
 	 proxy := httputil.NewSingleHostReverseProxy(&url.URL{Scheme: "https", Host: BUCKET_URL})
 

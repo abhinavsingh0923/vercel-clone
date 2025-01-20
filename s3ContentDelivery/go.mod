@@ -1,4 +1,4 @@
-module github.com/swarnikaraj/vercel-clone/s3ContentDelivery
+module github.com/abhinavsingh/vercel-clone/s3ContentDelivery
 
 go 1.21.6
 

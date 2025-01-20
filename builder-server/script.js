@@ -50,7 +50,7 @@ async function init() {
       console.log("uploading", filePath);
       try {
         const command = new PutObjectCommand({
-          Bucket: "swarnnika-vercel2",
+          Bucket: "abhinav-vercel2",
           Key: `__output/${PROJECT_ID}/${file}`,
           Body: fs.createReadStream(filePath),
           ContentType: mime.lookup(filePath),

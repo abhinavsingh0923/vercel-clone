@@ -69,11 +69,11 @@ const handleClickDeploy = useCallback(async () => {
     toast.error(
       <>
          If the site is not working, please contact me on{' '}
-        <a href="https://www.linkedin.com/in/swarnnika-raj-singh-a6731914b/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/singhabhinav0923/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin /> 
         </a>{' '}
         or via email at{' '}
-        <a href="mailto:swarnikarajsingh@gmail.com">
+        <a href="mailto:abhinavsingh0923@gmail.com">
           <FaEnvelope /> 
         </a>
         . The reason could be due to an overdue AWS bill.
